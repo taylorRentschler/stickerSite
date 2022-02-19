@@ -11,9 +11,18 @@ body {
     background-color: #fffaf0;
 }
 
+p {
+    font-size: 14px;
+}
 
 div {
-    border: 1px solid darkgrey;
+
+}
+
+div.mainContent {
+    position: absolute;
+    top: 60%;
+    left: 5%;
 }
 
 h1 {
@@ -31,7 +40,6 @@ li {
     display: inline;
     float: left;
     border-bottom: 3px dashed white;
-
 }
 
 a {
@@ -39,6 +47,7 @@ a {
     padding: 10px;
     text-decoration: none;
 }
+
 a.visited {
     text-decoration: none;
 }
